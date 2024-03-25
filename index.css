@@ -1,0 +1,70 @@
+@font-face {
+    font-family: timer_font;
+    src: url(timer_font.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer-box {
+    width: 155px;
+    height: 120px;
+    background: black;
+    font-family: timer_font;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.names {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ccc;
+    text-align: center;
+}
+
+.footer_btn {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: timer_font;
+    font-size: 18px;
+    color: #9AABD8;
+}
+
+.footer 
+{
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.new_game_button {  
+    margin-top: 26px; 
+    width: 200px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: timer_font;
+    font-size: 18px;
+    color: #9AABD8;
+}
+
+.button_container
+{  
+    display: flex;
+    justify-content: center;
+}
